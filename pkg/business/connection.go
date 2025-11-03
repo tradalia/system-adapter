@@ -190,7 +190,7 @@ func Connect(c *auth.Context, connectionCode string, cs *ConnectionSpec) (*Conne
 		case adapter.ConnectionResultProxyUrl:
 			res.Status  = ConnectionStatusConnecting
 			res.Action  = ConnectionActionOpenUrl
-			res.Message = "https://bitfever-server:8449/api/system/v1/weblogin/"+ user +"/"+ connectionCode +"/login"
+			res.Message = "https://tradalia-server:8449/api/system/v1/weblogin/"+ user +"/"+ connectionCode +"/login"
 	}
 
 	return res, nil

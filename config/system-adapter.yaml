@@ -3,7 +3,7 @@ application:
   production: false
   debug: false
 authentication:
-  authority: https://bitfever-server:8443/auth/realms/bitfever
+  authority: https://tradalia-server:8443/auth/realms/tradalia
 messaging:
   address: localhost:8450
   username: rabbit-admin
