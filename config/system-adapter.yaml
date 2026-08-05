@@ -3,9 +3,9 @@ application:
   production : false
   debug      : false
 authentication:
-  authority: https://algotiqa-server:8443/auth/realms/algotiqa
+  authority: https://algotiqa:8443/auth/realms/algotiqa
 messaging:
-  address : algotiqa-server:8450
+  address : rabbitmq:5672
   username: admin
   password: admin
   journal:
