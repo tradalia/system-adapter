@@ -81,7 +81,7 @@ var configParams = []*adapter.ParamDef{
 var connectParamsBrowser = []*adapter.ParamDef{
 	{
 		Name:     ParamClientId,
-		Type:     adapter.ParamTypeString,
+		Type:     adapter.ParamTypePassword,
 		DefValue: "",
 		Nullable: false,
 		MinValue: 0,
@@ -89,7 +89,7 @@ var connectParamsBrowser = []*adapter.ParamDef{
 	},
 	{
 		Name:     ParamClientSecret,
-		Type:     adapter.ParamTypeString,
+		Type:     adapter.ParamTypePassword,
 		DefValue: "",
 		Nullable: false,
 		MinValue: 0,
